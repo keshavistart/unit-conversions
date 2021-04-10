@@ -1,21 +1,21 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "keshavistart/unit_conversions",
+    "description": "Perform unit conversion in PHP",
     "keywords": [
-        ":vendor_name",
-        "package_slug"
+        "keshavistart",
+        "unit_conversions"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/keshavistart/unit_conversions",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Keshav Kehave Joshi",
+            "email": "keshav.istart@gmail.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.3|^8.0"
     },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.17",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src"
+            "Keshavistart\\UnitConversions\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Keshavistart\\UnitConversions\\Tests\\": "tests"
         }
     },
     "scripts": {
