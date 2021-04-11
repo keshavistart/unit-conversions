@@ -3,7 +3,6 @@
 namespace Keshavistart\UnitConversions\Tests;
 
 use Keshavistart\UnitConversions\Temparature;
-use Keshavistart\UnitConversions\Weight;
 use PHPUnit\Framework\TestCase;
 
 class TemparatureTest extends TestCase
